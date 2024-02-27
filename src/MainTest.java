@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
@@ -35,7 +36,6 @@ class MainTest {
     void half() {
         assertEquals(9.5, Main.half(19));
     }
-
     @org.junit.jupiter.api.Test
     void roundPositiveValueToNearestInteger() {
         assertEquals(9, Main.roundPositiveValueToNearestInteger(8.5));
